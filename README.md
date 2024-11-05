@@ -2,17 +2,17 @@
 
 ##PROJECT TITLE... SALES DATA ANALYSIS
 
-[PROJECT OVERVIEW](#project overview)
+[PROJECT OVERVIEW](#project-overview)
 
-[DATA INFORMATION](#data information)
+[DATA INFORMATION](#data-information)
 
-[DATA CLEANING AND TOOLS USED](#data cleaning and tools used).
+[DATA CLEANING AND TOOLS USED](#data-cleaning-and-tools-used).
 
-[EXPLORATORY DATA ANALYSIS](#exploratory data analysis)
+[EXPLORATORY DATA ANALYSIS](#exploratory-data-analysis)
 
-[DATA VISUALISATION](#data visualisation)
+[DATA VISUALISATION](#data-visualisation)
 
-[DATA ANALYSIS](#data analysis)
+[DATA ANALYSIS](#data-analysis)
 
 ### PROJECT OVERVIEW
 ---
