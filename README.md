@@ -14,6 +14,8 @@
 
 [DATA ANALYSIS](#data-analysis)
 
+[CONCLUSIONS AND RECOMMENDATIONS](#conclusions-and-recommendations)
+
 ### PROJECT OVERVIEW
 ---
 This project is based on analyzing sales data to identify trends, top-selling products, revenue, units sold, by comparing regions, transaction categories and some other Metrics for business decision-making. 
