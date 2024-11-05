@@ -160,16 +160,6 @@ PRODUCT	SALES
 
 ##### DATA VISUALISATION
 
-TOTAL SALES BY PRODUCT	
-Products	 Sum of total sales 
-Gloves	 296,900.00 
-Hat	    316,195.00 
-Jacket	 208,230.00 
-Shirt	    485,600.00 
-Shoes	    613,380.00 
-Socks	    180,785.00 
-Grand Total	 2,101,090.00 
-![image](https://github.com/user-attachments/assets/53d52b5b-3509-4b28-8b66-f96ee22dd456)
 
 
 
