@@ -1,4 +1,4 @@
-# lita-Capstone-project(SALES DATA)
+# Lita-Capstone-project(SALES DATA)
 
 ##PROJECT TITLE... SALES DATA ANALYSIS
 
