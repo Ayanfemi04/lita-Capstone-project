@@ -39,6 +39,9 @@ I used this in exploring the Sales data set, in order to answer some underlying 
 ![image](https://github.com/user-attachments/assets/78467103-02ee-4e7f-bbc2-fe1faefb68af)
 
 
+![image](https://github.com/user-attachments/assets/ac92a44c-3a26-43fa-a8bf-481d21033196)
+
+
 
 
 
