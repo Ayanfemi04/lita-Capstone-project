@@ -34,6 +34,13 @@ I used this in exploring the Sales data set, in order to answer some underlying 
       *What is the Total Sales, Total revenue by months or year?
       *Who are the "Top 5" Customers?
       *Which product has the lowest number of sales?
+##### DATA VISUALISATION
+
+![image](https://github.com/user-attachments/assets/78467103-02ee-4e7f-bbc2-fe1faefb68af)
+
+
+
+
 
 ###### DATA ANALYSIS
 ---
