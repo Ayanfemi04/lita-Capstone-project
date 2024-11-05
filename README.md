@@ -50,6 +50,9 @@ It was also recorded that  29.19% of the total sales was gotten from shoes, 23.1
 The table above is a pictoral summary of the Sales Report, with the aid  of Charts. 
 Monthly Sales was summarised, where the Sales activities rose steadily from january through february, seen in January through. it was deduced that the sales dropped in March and started picking up in April through June. the peak of the Sales activities began in th month of June and dropped in August.
 
+![image](https://github.com/user-attachments/assets/6d4a1e8f-b24d-47fd-885d-4acdd8352243)
+
+
 
 
 ###### DATA ANALYSIS
