@@ -45,7 +45,17 @@ I used some basic lines of code, queries, Dax functions in the course of this An
 SELECT PRODUCT,SUM(SALES) as Totalsales
 from[dbo].[LITA CAPSTONE SALES DATA]
 Group by Product
+---
+#### SQL QUERIES FOR SALES DATA PROJECT
+
+
+......TOTAL SALES FROM EACH PRODUCT CATEGORY.....
+SELECT PRODUCT,SUM(SALES) as Totalsales
+from[dbo].[LITA CAPSTONE SALES DATA]
+Group by Product
+
 Table 1.1
+
 PRODUCTS   TOTAL SALES
 Shoes	   3087500
 Jacket	1050000
@@ -56,7 +66,8 @@ Gloves	1500000
 
 From the table above , i was able to calculate the total sales made from each product category. a total sales of #3,087,500 was made from Shoes, #1,050,000 from Jacket, #1,587500 from Hat, #912,500 from socks, #,2450,000 from Shirt and #1,500,000
 
-.........number of sales transactions in each region......
+........NUMBER OF SALES TRANSACTION IN EACH REGION......
+
 SELECT Region,
 COUNT(product) as sales_transactions_number 
 from [dbo].[LITA CAPSTONE SALES DATA]
@@ -69,6 +80,9 @@ East	12500
 South	12500
 West	12500
 
+
+.........THE HIGHEST SELLING PRODUCT BY TOTAL SALES VALUE.........
+
 SELECT Region,SUM(SALES) as Totalsales
 from[dbo].[LITA CAPSTONE SALES DATA]
 Group by Region
@@ -80,10 +94,10 @@ East	2450000
 South	4675000
 West	1512500
 
-..highest  selling product.......
+..HIGHEST SELLING PRODUCT......
 select (product)from[dbo].[LITA CAPSTONE SALES DATA]
 
-
+........TOTAL REVENUE PER PRODUCT
 SELECT PRODUCT, 
 SUM(sales) as total_Revenue
 from[dbo].[LITA CAPSTONE SALES DATA]
@@ -99,23 +113,50 @@ Shirt	2450000
 Gloves 1500000
 
 
-........monthly sales totals for the current year......
+........MONTHLY SALES TOTAL FOR THE CURRENT YEAR......
 select orderdate,[revenue] as total_sales
 from [dbo].[LITA CAPSTONE SALES DATA]
 where year (OrderDate) in (2024)
 
+.............TOP 5 CUSTOMERS.......
+select top 5 customer_id,SUM(quantity)
+from[dbo].[LITA CAPSTONE SALES DATA]
+group by customer_id
+
+TABLE 1.5
+customer_id	(No column name)
+Cus1431	      711
+Cus1249	      567
+Cus1302	      723
+Cus1115	      715
+Cus1005	      588
 
 select Region, SUM(Sales) as Region_Sales,
 COUNT(Sales)*100.0/SUM(count(Sales))
 over() as percentage from[dbo].[LITA CAPSTONE SALES DATA]
 group by region
 
-Table 1.5
+Table 1.6
 Region	Region_Sales	percentage
 North	   1950000	         25
 East	   2450000	         25
 South	   4675000	         25
 West	   1512500	         25
+
+
+...........PRODUCT WITH NO SALES IN THE LAST QUATER..............
+
+select PRODUCT, SUM(QUANTITY) AS SALES 
+from[dbo].[LITA CAPSTONE SALES DATA]
+ WHERE MONTH (ORDERDATE) BETWEEN 10 AND 12 -- MONTHS 10, 11 AND 12
+ GROUP BY PRODUCT
+ HAVING SUM(QUANTITY) = 0
+
+TABLE 1.7
+PRODUCT	SALES
+
+
+
 
 ##### DATA VISUALISATION
 
