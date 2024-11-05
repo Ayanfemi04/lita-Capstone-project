@@ -160,7 +160,6 @@ PRODUCT	SALES
 
 ##### DATA VISUALISATION
 
-![image](https://github.com/user-attachments/assets/a0e226d4-5c7e-40d2-87b6-7072a31fab81)
 
 
 
