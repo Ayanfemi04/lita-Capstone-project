@@ -1,5 +1,19 @@
 # lita-Capstone-project(SALES DATA)
-## PROJECT OVERVIEW
+
+##PROJECT TITLE... SALES DATA ANALYSIS
+[PROJECT OVERVIEW](#project overview)
+
+[DATA INFORMATION](#data information)
+
+[DATA CLEANING AND TOOLS USED](#data cleaning and tools used).
+
+[EXPLORATORY DATA ANALYSIS](#exploratory data analysis)
+
+[DATA VISUALISATION](#data visualisation)
+
+[DATA ANALYSIS](#data analysis)
+
+### PROJECT OVERVIEW
 ---
 This project is based on analyzing sales data to identify trends, top-selling products, revenue, units sold, by comparing regions, transaction categories and some other Metrics for business decision-making. 
 In this project, I will be making use of large sales dataset to extract valuable insights. To explore sales trends over time, identify the best-selling products, calculate revenue metrics such as total sales and Total Revenue, and create visualizations and present my findings effectively. This will also enable me make data-driven recommendations for optimizing sales strategies.
@@ -34,6 +48,7 @@ I used this in exploring the Sales data set, in order to answer some underlying 
       *What is the Total Sales, Total revenue by months or year?
       *Who are the "Top 5" Customers?
       *Which product has the lowest number of sales?
+
 ##### DATA VISUALISATION
 
 ![image](https://github.com/user-attachments/assets/78467103-02ee-4e7f-bbc2-fe1faefb68af)
