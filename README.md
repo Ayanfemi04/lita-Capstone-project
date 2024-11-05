@@ -42,10 +42,7 @@ The table above showcase the summary of the sales data with the  use of a Pivot 
 From the analysis, we were able to summarise the Total sales generated from each product. 
 The product that recorded the highest sales is Shoes with a Total of #613,380.
 The use of Pivot Table also enabled us get a record of Total Sales generated monthly for the year 2023 and 2024.
-It was also recorded that  29.19% of the total sales was gotten from shoes, 23.11% from shirt, 15.055 from Hat, 14.135 from Gloves,9.91% from Jacket and 8.60% from socks
-
-
-![image](https://github.com/user-attachments/assets/ac92a44c-3a26-43fa-a8bf-481d21033196)
+It was also recorded that  29.19% of the total sales was gotten from shoes, 23.11% from shirt, 15.055 from Hat, 14.135 from Gloves,9.91% from Jacket and 8.60% from soc
 
 
 
