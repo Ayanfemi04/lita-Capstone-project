@@ -105,4 +105,19 @@ from [dbo].[LITA CAPSTONE SALES DATA]
 where year (OrderDate) in (2024)
 
 
+select Region, SUM(Sales) as Region_Sales,
+COUNT(Sales)*100.0/SUM(count(Sales))
+over() as percentage from[dbo].[LITA CAPSTONE SALES DATA]
+group by region
+
+Table 1.5
+Region	Region_Sales	percentage
+North	   1950000	         25
+East	   2450000	         25
+South	   4675000	         25
+West	   1512500	         25
+
+##### DATA VISUALISATION
+
+
   
