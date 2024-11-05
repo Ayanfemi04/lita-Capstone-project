@@ -45,6 +45,7 @@ The use of Pivot Table also enabled us get a record of Total Sales generated mon
 It was also recorded that  29.19% of the total sales was gotten from shoes, 23.11% from shirt, 15.055 from Hat, 14.135 from Gloves,9.91% from Jacket and 8.60% from soc
 
 
+![image](https://github.com/user-attachments/assets/340c47bd-5da4-40c6-9377-28b29f48a22c)
 
 
 
